@@ -5,7 +5,7 @@ import { GridFsStorage } from 'multer-gridfs-storage';
 // import pkg from 'dotenv';
 // const {DB_USERNAME,DB_PASSWORD} = pkg;
 const storage = new GridFsStorage({
-    url: `mongodb+srv://sunilsahu:sunil123@cluster0.u8z0f.mongodb.net/blogXYZ?retryWrites=true&w=majority`,
+    url: `mongodb+srv://sunilsahu:sunil123@cluster0.u8z0f.mongodb.net/blogYarding?retryWrites=true&w=majority`,
     options: { useNewUrlParser: true },
     file: (request, file) => {
         const match = ["image/png", "image/jpg"];
